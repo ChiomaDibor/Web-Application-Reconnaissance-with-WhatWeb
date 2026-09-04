@@ -96,22 +96,6 @@ X-Powered-By: PHP/5.2.4-2ubuntu5.10
 
 These headers provide useful information about the underlying technology stack and demonstrate the value of reconnaissance and technology fingerprinting.
 
-## Screenshots
-
-The `screenshots/` directory contains evidence collected during the laboratory exercise, including:
-
-* Target IP configuration
-* Successful connectivity test
-* HTTP header inspection
-* WhatWeb scan results
-* Detailed technology findings
-
-## Results
-
-The raw WhatWeb output is available in:
-
-`results/whatweb-results.txt`
-
 ## Report
 
 The complete Proof of Concept report is available in:
