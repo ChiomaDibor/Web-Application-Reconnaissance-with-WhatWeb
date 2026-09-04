@@ -35,8 +35,7 @@ The assessment followed these steps:
 2. Verified connectivity between Kali Linux and the target.
 3. Inspected the target's HTTP response headers using cURL.
 4. Performed web technology fingerprinting using WhatWeb.
-5. Saved the WhatWeb output for documentation.
-6. Analysed the identified technologies and security implications.
+5. Analysed the identified technologies and security implications.
 
 ## Commands Used
 
@@ -62,12 +61,6 @@ curl -I http://192.168.56.101
 
 ```bash
 whatweb -v http://192.168.56.101
-```
-
-### Save WhatWeb results
-
-```bash
-whatweb -v http://192.168.56.101 | tee whatweb-results.txt
 ```
 
 ## Key Findings
@@ -100,7 +93,7 @@ These headers provide useful information about the underlying technology stack a
 
 The complete Proof of Concept report is available in:
 
-`report/WhatWeb-Web-Application-Reconnaissance.pdf`
+`WEB APPLICATION RECONNAISSANCE WITH WHATWEB.pdf`
 
 ## Security Considerations
 
